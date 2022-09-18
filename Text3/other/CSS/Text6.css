@@ -1,0 +1,36 @@
+a:link {color: white}     /* 未访问的链接 */
+a:visited {color: white}  /* 已访问的链接 */
+a:hover {color: aqua}    /* 当有鼠标悬停在链接上 */
+a:active {color: black}   /* 被选择的链接 */
+a{text-decoration: none;}   /*去下划线*/
+a{font-weight: bolder;}       /* 字体加粗 */
+
+* {
+	box-sizing: border-box;
+  }
+  
+  .box {
+	float: left;
+	width: 50%;
+	padding: 300px;
+	text-align: center;
+	height: 776px;
+  }
+  
+  .clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
+  #text1 {
+	background-color: rgb(32, 104, 100);
+  }
+
+  #text2 {
+	background-color: rgb(175, 35, 28);
+  }
+
+  a{
+	font-size: 40px;
+}
