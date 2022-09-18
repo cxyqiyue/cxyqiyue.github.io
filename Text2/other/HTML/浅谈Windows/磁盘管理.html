@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../../CSS/iconfont.css" />
+    <link rel="stylesheet" href="../../CSS/index.css" />
+    <link rel="icon" type="image/x-icon" href="../../img/favicon.ico" />
+    <title>磁盘管理</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="menu-box">
+        <!-- 展示与隐藏侧边栏 开始-->
+        <input type="checkbox" id="menu-btn" />
+        <label for="menu-btn"><i class="iconfont icon-yemianfanhui"></i></label>
+        <!-- 展示与隐藏侧边栏 结束-->
+        <div class="menu">
+          <!-- 侧边栏的标题 开始-->
+          <div class="menu-title">
+            <h1><a href="../../../index.html" class="logo">首页</a></h1>
+          </div>
+          <!-- 侧边栏的标题 结束-->
+
+          <!-- 每一项导航 -->
+          <div class="menu-item">
+            <input type="checkbox" id="menu-item1" />
+            <label for="menu-item1">
+              <i class="menu-item-icon iconfont icon-a-02-kechengguanli"></i>
+              <span>浅谈Windows</span>
+              <i class="menu-item-last iconfont icon-down"></i>
+            </label>
+            <div class="menu-content">
+              <span>
+                <a href="../浅谈Windows/相关设置.html" class="item">相关设置</a>
+              </span>
+              <span>
+                <a href="../浅谈Windows/磁盘管理.html" class="item">磁盘管理</a>
+              </span>
+              <span>
+                <a href="../浅谈Windows/杀毒软件.html" class="item">杀毒软件</a>
+              </span>
+              <span>
+                <a href="../浅谈Windows/系统更新.html" class="item">系统更新</a>
+              </span>
+              <span>
+                <a href="../浅谈Windows/软件那些事儿.html" class="item"
+                  >软件那些事儿</a
+                >
+              </span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <input type="checkbox" id="menu-item2" />
+            <label for="menu-item2">
+              <i class="menu-item-icon iconfont icon-a-02-kechengguanli"></i>
+              <span>玩转浏览器</span>
+              <i class="menu-item-last iconfont icon-down"></i>
+            </label>
+            <div class="menu-content">
+              <span>
+                <a href="../玩转浏览器/Chrome.html" class="item">Chrome</a>
+              </span>
+              <span>
+                <a href="../玩转浏览器/Microsoft Edge.html" class="item"
+                  >Microsoft Edge</a
+                >
+              </span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <input type="checkbox" id="menu-item3" />
+            <label for="menu-item3">
+              <i class="menu-item-icon iconfont icon-a-02-kechengguanli"></i>
+              <span>系统优化软件</span>
+              <i class="menu-item-last iconfont icon-down"></i>
+            </label>
+            <div class="menu-content">
+              <span>
+                <a href="../系统优化软件/Dism++.html" class="item">Dism++</a>
+              </span>
+              <span>
+                <a
+                  href="../系统优化软件/DirectX（动态库修复工具）.html"
+                  class="item"
+                  >DirectX</a
+                >
+              </span>
+              <span>
+                <a
+                  href="../系统优化软件/Start All Back(Win11换皮).html"
+                  class="item"
+                  >Start All Back</a
+                >
+              </span>
+              <span>
+                <a
+                  href="../系统优化软件/IObit Unlocker（解除占用）.html"
+                  class="item"
+                  >IObit Unlocker</a
+                >
+              </span>
+              <span>
+                <a href="../系统优化软件/Windows Defender开关.html" class="item"
+                  >Windows Defender</a
+                >
+              </span>
+              <span>
+                <a href="../系统优化软件/右键管理工具.html" class="item"
+                  >右键管理工具</a
+                >
+              </span>
+              <span>
+                <a href="../系统优化软件/任务栏显示隐藏.html" class="item"
+                  >任务栏显示隐藏</a
+                >
+              </span>
+              <span>
+                <a href="../系统优化软件/Windows功能开关.html" class="item"
+                  >Windows功能开关</a
+                >
+              </span>
+              <span>
+                <a href="../系统优化软件/Windows超级管理器.html" class="item"
+                  >Windows超级管理器</a
+                >
+              </span>
+              <span>
+                <a href="../系统优化软件/Windows更新服务开关.html" class="item"
+                  >Windows更新服务开关</a
+                >
+              </span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <input type="checkbox" id="menu-item4" />
+            <label for="menu-item4">
+              <i class="menu-item-icon iconfont icon-a-02-kechengguanli"></i>
+              <span>常用软件1</span>
+              <i class="menu-item-last iconfont icon-down"></i>
+            </label>
+            <div class="menu-content">
+              <span>
+                <a href="../常用软件1/驱动.html" class="item">驱动</a>
+              </span>
+              <span>
+                <a href="../常用软件1/截图.html" class="item">截图</a>
+              </span>
+              <span>
+                <a href="../常用软件1/图片.html" class="item">图片</a>
+              </span>
+              <span>
+                <a href="../常用软件1/音乐.html" class="item">音乐</a>
+              </span>
+              <span>
+                <a href="../常用软件1/视频.html" class="item">视频</a>
+              </span>
+              <span>
+                <a href="../常用软件1/PDF.html" class="item">PDF</a>
+              </span>
+              <span>
+                <a href="../常用软件1/WPS.html" class="item">WPS</a>
+              </span>
+              <span>
+                <a href="../常用软件1/Office.html" class="item">Office</a>
+              </span>
+              <span>
+                <a href="../常用软件1/输入法.html" class="item">输入法</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="menu-item">
+            <input type="checkbox" id="menu-item5" />
+            <label for="menu-item5">
+              <i class="menu-item-icon iconfont icon-a-02-kechengguanli"></i>
+              <span>常用软件2</span>
+              <i class="menu-item-last iconfont icon-down"></i>
+            </label>
+            <div class="menu-content">
+              <span>
+                <a href="../常用软件2/压缩软件.html" class="item">压缩软件</a>
+              </span>
+              <span>
+                <a href="../常用软件2/卸载软件.html" class="item">卸载软件</a>
+              </span>
+              <span>
+                <a href="../常用软件2/硬件信息.html" class="item">硬件信息</a>
+              </span>
+              <span>
+                <a href="../常用软件2/仿Mac风格.html" class="item">仿Mac风格</a>
+              </span>
+              <span>
+                <a href="../常用软件2/文件下载器.html" class="item"
+                  >文件下载器</a
+                >
+              </span>
+              <span>
+                <a href="../常用软件2/视频下载器.html" class="item"
+                  >视频下载器</a
+                >
+              </span>
+              <span>
+                <a href="../常用软件2/万能解包工具.html" class="item"
+                  >万能解包工具</a
+                >
+              </span>
+              <span>
+                <a href="../常用软件2/百度网盘下载.html" class="item"
+                  >百度网盘下载</a
+                >
+              </span>
+              <span>
+                <a href="../常用软件2/流氓软件屏蔽器.html" class="item"
+                  >流氓软件屏蔽器</a
+                >
+              </span>
+              <span>
+                <a href="../常用软件2/万能文件查看器.html" class="item"
+                  >万能文件查看器</a
+                >
+              </span>
+              <span>
+                <a href="../常用软件2/Wallpaper Engine.html" class="item"
+                  >Wallpaper Engine</a
+                >
+              </span>
+            </div>
+          </div>
+          <div class="menu-item">
+            <input type="checkbox" id="menu-item6" />
+            <label for="menu-item6">
+              <i class="menu-item-icon iconfont icon-a-02-kechengguanli"></i>
+              <span>重装系统</span>
+              <i class="menu-item-last iconfont icon-down"></i>
+            </label>
+            <div class="menu-content">
+              <span>
+                <a href="../重装系统/PE.html" class="item">PE</a>
+              </span>
+              <span>
+                <a href="../重装系统/ISO.html" class="item">ISO</a>
+              </span>
+              <span>
+                <a href="../重装系统/KMS.html" class="item">KMS</a>
+              </span>
+              <span>
+                <a href="../重装系统/重装系统.html" class="item">重装系统</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="set-line"></div>
+
+          <div class="menu-item">
+            <label>
+              <i class="menu-item-icon iconfont icon-a-08-shezhi"></i>
+              <span>setting</span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="article">
+          <h1 class="title">磁盘管理</h1>
+          <div class="section">
+            <div>
+              <p>
+                目前所有的操作系统所用来存储的介质都是硬盘（分为固态硬盘和机械硬盘）。在Windows操作系统中则以磁盘可视化来显示，也就是我们常说的C盘、D盘、E盘等等。那么为什么要分盘呢？打个比方，如果把整个磁盘比作一个<strong>“家”</strong>的话，那么像C盘、D盘、E盘这些就像是<strong>“家”</strong>的各个区域，比如C盘是<strong>客厅</strong>，D盘是<strong>书房</strong>，E盘是<strong>储物间</strong>，而重装系统则是<strong>搬家</strong>。
+              </p>
+            </div>
+            <div>
+              <p>
+                如果不分盘的话，就像你的家没有区域划分，干什么都在一个区域，一旦<strong>“失个火”</strong>全都没了。再比如你如果要<strong>搬家</strong>的话，是不是要找重要的东西带去新家？没有区域划分的家会一团乱，诚然最后也能找齐，但花费的时间那就多了。或者说，重装系统的时候非常麻烦，因为要去进行文件备份才能开始重装系统，这是非常麻烦的一件事。因为重装系统需要格式化系统盘并重新写入系统，只有一个盘的话会全部清空。
+              </p>
+            </div>
+            <div>
+              <p>
+                如果一开始就分盘各司其职的话，那么一切都会方便的多。就像一个书架，各种书按分类摆放整齐，找的时候一眼就能找的，效率直接翻倍。比如系统盘一般默认是C盘（但不能就以为C盘一定是系统盘），里面只放系统文件和默认安装C盘且无法更改路径的软件，而D盘则作为软件安装盘，所有能够更改路径的软件都安装在这里，E盘则作为文件备份盘，日常存储软件安装包和你所有重要的文档、图片、视频什么的。<strong
+                  >这样做的好处是，万一你的电脑需要重装系统，不需要再去备份文件，直接格式化C盘和D盘，E盘不用动，再将系统写进C盘，重装完成还可以直接进E盘将软件安装包直接拿到D盘安装，还不需要去网上再一个一个下。这样真的很省时省力。</strong
+                >
+              </p>
+            </div>
+            <h3>分盘步骤</h3>
+            <div>
+              <p>
+                <strong
+                  >个人建议：C盘100G、E盘100G，剩余的给D盘装软件，硬盘容量够大随意，硬盘容量不够的优先保障C盘和D盘的容量。</strong
+                >
+                比如我现在使用的虚拟机，用的是Win11，只有一个399G大小的C盘，我想再分出来D盘和E盘。（ps：更改快速访问文件夹位置在<a
+                  class="pos"
+                  href="#pos1"
+                  >更改快速访问存储位置</a
+                >）
+              </p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/26.jpg"
+                alt="C盘"
+                class="img"
+              />
+              <p></p>
+              <strong>第一步：右键桌面此电脑——>管理</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/1.jpg"
+                alt="管理"
+                class="img"
+                style="width: 40%; height: 40%"
+              />
+              <p></p>
+              <strong>第二步：存储——>磁盘管理</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/2.jpg"
+                alt="磁盘管理"
+                class="img"
+              />
+              <p></p>
+              <strong
+                >第三步：磁盘0——>C盘（如果有D盘且空间够大的话，建议从D盘分）</strong
+              >
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/3.jpg"
+                alt="C盘"
+                class="img"
+              />
+              <p></p>
+              <strong>第四步：压缩卷</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/4.jpg"
+                alt="压缩卷"
+                class="img"
+              />
+              <p></p>
+              <strong>第五步：输入压缩空间量</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/5.jpg"
+                alt="输入压缩空间量"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第六步：压缩出未使用空间以创建D盘</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/6.jpg"
+                alt="压缩出未使用空间"
+                class="img"
+              />
+              <p></p>
+              <strong
+                ><a class="pos" name="pos2"
+                  >第七步：未使用空间——>右键新建简单卷</a
+                ></strong
+              >
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/7.jpg"
+                alt="右键新建简单卷"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第八步：新建简单卷</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/8.jpg"
+                alt="新建简单卷"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第九步：新建简单卷大小</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/9.jpg"
+                alt="新建简单卷大小"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第十步：分配驱动器号和路径</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/10.jpg"
+                alt="分配驱动器号和路径"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第十一步：格式化分区</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/11.jpg"
+                alt="格式化分区"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第十二步：完成新建简单卷</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/12.jpg"
+                alt="完成新建简单卷"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第十三步：成功添加新加卷D</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/13.jpg"
+                alt="成功添加新加卷D"
+                class="img"
+              />
+              <p></p>
+              <strong>第十四步：可用空间新建E盘</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/14.jpg"
+                alt="可用空间新建E盘"
+                class="img"
+              />
+              <p></p>
+              <strong
+                ><a class="pos" href="#pos2"
+                  >第十五步：重复第七步到第十二步</a
+                ></strong
+              >
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/15.jpg"
+                alt="重复第七步到第十二步"
+                class="img"
+              />
+              <p></p>
+              <strong>第十六步：此电脑显示</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/16.jpg"
+                alt="此电脑显示"
+                class="img"
+              />
+              <p></p>
+              <strong>第十七步：更改卷名，方便日常使用和重装系统</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/17.jpg"
+                alt="更改卷名"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>如图</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/27.jpg"
+                alt="更改卷名"
+                class="img"
+              />
+            </div>
+            <h3><a class="pos" name="pos1">更改快速访问存储位置</a></h3>
+            <div>
+              <p>
+                <strong>第一步：D盘在D盘中创建以下文件夹</strong><br />
+                <strong
+                  >（ps：在磁盘中创建文件夹作为它们的位置，是因为日后想更改可以随时更改，但直接选择磁盘的话，一旦确定再想更改位置，唯有重装系统才可以从头再来。）</strong
+                >
+              </p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/18.jpg"
+                alt="更改快速访问存储位置"
+                class="img"
+              />
+              <p></p>
+              <strong>第二步：视频——>右键属性</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/19.jpg"
+                alt="视频"
+                class="img"
+              />
+              <p></p>
+              <strong>第三步：位置</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/20.jpg"
+                alt="位置"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第四步：移动</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/21.jpg"
+                alt="移动"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第五步：选择文件夹</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/22.jpg"
+                alt="选择文件夹"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第六步：应用——>确定</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/23.jpg"
+                alt="应用——>确定"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第七步：移动文件夹</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/24.jpg"
+                alt="移动文件夹"
+                class="img"
+                style="width: 60%; height: 60%"
+              />
+              <p></p>
+              <strong>第八步：展示</strong>
+              <p></p>
+              <img
+                src="../../img/浅谈Windows/磁盘管理/25.jpg"
+                alt="展示"
+                class="img"
+              />
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
