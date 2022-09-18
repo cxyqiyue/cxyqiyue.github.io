@@ -1,0 +1,144 @@
+h1,h2 {
+	text-align: center;
+}
+
+.page-box {
+	margin: 0 auto;
+	width: 200px;
+	height: 50px;
+	transform-style: preserve-3d; /*子元素将保留其 3D 位置*/
+	perspective: 1000; /*视距设置*/
+	-webkit-perspective: 1000;
+	/* Safari and Chrome */
+}
+
+.main-box {
+	margin-top: 50px;
+	height: 40px;
+	width: 200px;
+	border-radius: 5px;
+	color: #333;
+	background-color: red;
+	text-align: center;
+	line-height: 40px;
+	animation-name: scaleAnimation; /*动画名*/
+	animation-duration: 2s;  /*动画时长*/
+	animation-iteration-count: infinite;  /*永久动画*/
+	transition-timing-function: ease-in-out; /*动画过渡*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*元素阴影*/
+}
+
+@keyframes scaleAnimation { /*动画设置*/
+	0% {
+		transform: scale(1);
+	}
+
+	25% {
+		transform: scale(1.08);
+	}
+
+	50% {
+		transform: scale(1);
+	}
+	75% {
+		transform: scale(1.08);
+	}
+}
+
+ul {
+	list-style: none;
+}
+
+ul {
+	margin: 10px auto;
+	width: 400px;
+	height: 230px;
+	position: relative;
+}
+
+li {
+	width: 60px;
+	height: 200px;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	bottom: 30px;
+	text-align: center;
+	/*调整旋转中心*/
+	transform-origin:bottom center;
+	border-radius: 10px;
+	transition: all 3s;
+	box-shadow: 10px 3px 10px 0.5px rgba(60, 60, 60, 0.64);
+}
+/*除了第7个其他都透明*/
+ul li:not(:nth-child(7)){
+	opacity: 0;
+}
+ul:hover li{
+	opacity: 1;
+}
+
+ul li:nth-child(1), ul li:nth-child(13) {
+	background: #4A148C;
+}
+
+ul li:nth-child(2), ul li:nth-child(12) {
+	background: #0D47A1;
+}
+
+ul li:nth-child(3), ul li:nth-child(11) {
+	background: #D81B60;
+}
+
+ul li:nth-child(4), ul li:nth-child(10) {
+	background: #4CAF50;
+}
+
+ul li:nth-child(5), ul li:nth-child(9) {
+	background: #CDDC39;
+}
+
+ul li:nth-child(6), ul li:nth-child(8) {
+	background: #FFA000;
+}
+
+ul li:nth-child(7) {
+	background: #B71C1C;
+}
+ul:hover li:nth-child(1){
+	transform: rotate(90deg);
+}
+ul:hover li:nth-child(13){
+	transform: rotate(-90deg);
+}
+ul:hover li:nth-child(2){
+	transform: rotate(75deg);
+}
+ul:hover li:nth-child(12){
+	transform: rotate(-75deg);
+}
+ul:hover li:nth-child(3){
+	transform: rotate(60deg);
+}
+ul:hover li:nth-child(11){
+	transform: rotate(-60deg);
+}
+ul:hover li:nth-child(4){
+	transform: rotate(45deg);
+}
+ul:hover li:nth-child(10){
+	transform: rotate(-45deg);
+}
+ul:hover li:nth-child(5){
+	transform: rotate(30deg);
+}
+ul:hover li:nth-child(9){
+	transform: rotate(-30deg);
+}
+ul:hover li:nth-child(6){
+	transform: rotate(15deg);
+}
+ul:hover li:nth-child(8){
+	transform: rotate(-15deg);
+}
+
