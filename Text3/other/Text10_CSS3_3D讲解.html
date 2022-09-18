@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3_3D讲解</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/Text10.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+  </head>
+  <body>
+    <h1>CSS3_3D讲解</h1>
+    <table>
+      <tr>
+        <th>属性</th>
+        <th colspan="3">描述</th>
+      </tr>
+      <tr>
+        <td rowspan="2">animation-name</td>
+        <td rowspan="2">规定@keyframes动画的名称</td>
+        <td>keyframe name</td>
+        <td>规定需要绑定到选择器的keyframe的名称</td>
+      </tr>
+      <tr>
+        <td>none</td>
+        <td>规定无动画效果（可用于覆盖来自级联的动画）</td>
+      </tr>
+      <tr>
+        <td>animation-duration</td>
+        <td>规定动画完成一个周期所花费的时间</td>
+        <td>time值</td>
+        <td>以秒或毫秒计算，默认是0</td>
+      </tr>
+      <tr>
+        <td rowspan="6">animation-timing-function</td>
+        <td rowspan="6">规定动画的速度曲线</td>
+        <td>linear</td>
+        <td>动画从头到尾的速度是相同的</td>
+      </tr>
+      <tr>
+        <td>ease</td>
+        <td>默认值。动画以低速开始，然后加快，在结束前变慢</td>
+      </tr>
+      <tr>
+        <td>ease-in</td>
+        <td>动画以低速开始</td>
+      </tr>
+      <tr>
+        <td>ease-out</td>
+        <td>动画以低速结束</td>
+      </tr>
+      <tr>
+        <td>ease-in-out</td>
+        <td>动画以低速开始和结束</td>
+      </tr>
+      <tr>
+        <td>cubic-bezier(n, n, n, n)</td>
+        <td>在cubic-bezier函数中自己的值，可以是从0到1的数值</td>
+      </tr>
+      <tr>
+        <td>animation-delay</td>
+        <td>规定动画开始前的延迟，可选</td>
+        <td>time值</td>
+        <td>以秒或毫秒计，默认是0</td>
+      </tr>
+      <tr>
+        <td rowspan="2">animation-iteration-count</td>
+        <td rowspan="2">规定动画被播放的次数</td>
+        <td>n</td>
+        <td>定义动画播放次数的数值，默认是1</td>
+      </tr>
+      <tr>
+        <td>infinite</td>
+        <td>规定动画应该无限次播放</td>
+      </tr>
+      <tr>
+        <td rowspan="2">animation-direction</td>
+        <td rowspan="2">规定动画是否在下一周期逆向播放</td>
+        <td>normal</td>
+        <td>默认值。动画应该正常播放</td>
+      </tr>
+      <tr>
+        <td>alternate</td>
+        <td>动画应该轮流反向播放</td>
+      </tr>
+      <tr>
+        <td rowspan="2">animation-play-state</td>
+        <td rowspan="2">规定动画是否正在运行或暂停</td>
+        <td>paused</td>
+        <td>规定动画已暂停</td>
+      </tr>
+      <tr>
+        <td>running</td>
+        <td>默认值，规定动画正在播放</td>
+      </tr>
+      <tr>
+        <td rowspan="4">animation-fill-mode</td>
+        <td rowspan="4">规定对象动画时间之外的状态</td>
+        <td>none</td>
+        <td>不改变默认行为</td>
+      </tr>
+      <tr>
+        <td>forwards</td>
+        <td>当动画完成后，保持最后一个属性值（在最后一个关键帧中定义）</td>
+      </tr>
+      <tr>
+        <td>backwards</td>
+        <td>
+          在animation-delay所指定的一段时间内，在动画显示之前，应用开始属性值（在第一个关键帧中定义）
+        </td>
+      </tr>
+      <tr>
+        <td>both</td>
+        <td>向前和向后填充模式都被应用</td>
+      </tr>
+    </table>
+  </body>
+</html>
