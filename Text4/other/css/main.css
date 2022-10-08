@@ -21,6 +21,9 @@ h3 {
 p {
 	text-indent: 2em;
 	line-height: 40px;
+	letter-spacing: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 summary {
