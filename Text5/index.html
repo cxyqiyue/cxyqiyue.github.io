@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/baidu_favicon.ico"
+      type="image/x-icon"
+    />
+    <title>百度搜索</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="search">
+        <form
+          id="form-search"
+          action="https://www.baidu.com/s"
+          method="get"
+          target="_blank"
+        >
+          <select onchange="location.href=this.value;" id="select">
+            <option value="./index.html ">百度</option>
+            <option value="./html/搜狗.html">搜狗</option>
+            <option value="./html/必应.html">Bing</option>
+            <option value="./html/谷歌.html">Google</option>
+            <option value="./html/Ecosia.html">Ecosia</option>
+            <option value="./html/GitHub.html">GitHub搜索</option>
+            <option value="./html/Yandex.html">Yandex</option>
+            <option value="./html/F搜.html">F搜</option>
+            <option value="./html/360.html">360搜索</option>
+            <option value="./html/编程.html">开发者搜索</option>
+            <option value="./html/知乎.html">知乎</option>
+            <option value="./html/bilibili.html">bilibili</option>
+            <option value="./html/茶杯狐.html">茶杯狐Cupfox</option>
+            <option value="./html/Tampermonkey.html">Tampermonkey</option>
+          </select>
+          <input
+            class="input-search"
+            type="text"
+            autocomplete="off"
+            placeholder="百度一下,你就知道"
+            name="wd"
+            autofocus
+          />
+          <button class="btn-search">百度一下</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
