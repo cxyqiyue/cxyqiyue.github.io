@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub搜索</title>
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="shortcut icon" href="../img/GitHub.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="search">
+            <form id="form-search" action="https://github.com/search" method="get" target="_blank">
+                <select onchange="location.href=this.value;" id="select">
+            <option value="./GitHub.html">GitHub</option>
+            <option value="../index.html ">百度</option>
+            <option value="./搜狗.html">搜狗</option>
+            <option value="./必应.html">Bing</option>
+            <option value="./谷歌.html">Google</option>
+            <option value="./Ecosia.html">Ecosia</option>
+            <option value="./Gitee.html">Gitee</option>
+            <option value="./Yandex.html">Yandex</option>
+            <option value="./F搜.html">F搜</option>
+            <option value="./360.html">360</option>
+            <option value="./编程.html">开发者</option>
+            <option value="./知乎.html">知乎</option>
+            <option value="./bilibili.html">bilibili</option>
+            <option value="./茶杯狐.html">Cupfox</option>
+            <option value="./Tampermonkey.html">Tampermonkey</option>
+          </select>
+                <input class="input-search" type="text" autocomplete="off" placeholder="Search GitHub" name="q" autofocus />
+                <button class="btn-search">GitHub</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

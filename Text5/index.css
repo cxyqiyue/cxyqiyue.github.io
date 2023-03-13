@@ -1,0 +1,31 @@
+.main{
+	font-size:0;
+	line-height: 600px;
+}
+.main .input-search{
+	width:550px;
+	height: 40px;
+	border:1px solid #b8b8b8;
+	vertical-align: middle;
+	font-size:20px;
+	font-family: Arial,'楷体';
+}
+.main .btn-search{
+	background-color: #38f;
+	border:none;
+	color: white;
+	font-size:20px;
+	width:102px;
+	height:44px;
+	vertical-align: middle;
+	font-family: Arial,'楷体';
+}
+.search{
+	text-align: center;
+}
+#select {
+	height: 44px;
+	vertical-align: middle;
+	font-size:20px;
+	font-family: Arial,'楷体';
+}
